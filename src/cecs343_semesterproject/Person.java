@@ -18,4 +18,15 @@ public class Person {
     private String city;
     private String state;
     private String zip;
+    
+    public Person()
+    {
+        firstName = "";
+        lastName = "";
+        phone = "";
+        address1 = "";
+        city = "";
+        state = "";
+        zip = "";
+    }
 }
